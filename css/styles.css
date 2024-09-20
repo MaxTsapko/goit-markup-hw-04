@@ -369,6 +369,7 @@ height: 64px;
 
 .footer-container {
   display: flex;
+}
 
  .logo-and-text {
    margin-right: 120px;
@@ -410,8 +411,7 @@ height: 64px;
     border-radius: 50%;
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-    fill: #FFFFFF;
+      fill: #FFFFFF;
   }
 
   .footer-icon-hover:hover,
@@ -419,6 +419,5 @@ height: 64px;
     background-color: #31d0aa;
   }
 
-
-
+ 
 /*========/footer======*/
