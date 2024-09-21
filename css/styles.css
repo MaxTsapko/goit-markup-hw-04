@@ -427,6 +427,7 @@ background-color: #f4f4fd;;
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
  .logo-and-text {
