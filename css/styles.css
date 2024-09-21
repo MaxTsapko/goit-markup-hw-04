@@ -85,12 +85,12 @@ border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
  }
 
-.menu-link.current {
+.menu-link {
   position: relative;
 }
 
 
- .menu-link.current::before {
+ .menu-link::after {
     content: '';
     border-radius: 2px;
     width: 100%;
@@ -99,6 +99,7 @@ border-bottom: 1px solid #e7e9fc;
     position: absolute;
     left: 0px;
     bottom: -1px;
+    opacity: 0;
 
  }
 
@@ -126,7 +127,14 @@ border-bottom: 1px solid #e7e9fc;
 .menu-link:hover,
 .menu-link:focus,
 .menu-link.current
-  {color: #404bbf;}
+  {color: #404bbf;
+  }
+
+.menu-link:hover::after,
+.menu-link:focus::after,
+.menu-link.current::after {
+  opacity: 1;
+}
 
 .menu-link:active {
     text-decoration: underline;}
