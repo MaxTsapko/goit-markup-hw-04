@@ -364,7 +364,7 @@ background-color: #f4f4fd;;
   overflow: hidden;
 }
 
-.portfolio-list-item:hover .app-overlay {
+.portfolio-list-item:hover .overlaytext {
   transform: translateY(0%);
 }
 
@@ -394,7 +394,7 @@ background-color: #f4f4fd;;
 }*/
 
 .overlaytext {
-padding: 40px 32px;
+  padding: 40px 32px;
   position: absolute;
   top: 0;
   left: 0;
